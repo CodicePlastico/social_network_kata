@@ -28,5 +28,4 @@ defmodule SocialNetwork.Board do
   def handle_call(:get_messages, _from, {_, messages} = state) do
     {:reply, {:ok, messages}, state}
   end
-
 end
